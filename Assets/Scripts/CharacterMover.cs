@@ -21,7 +21,7 @@ public class CharacterMover : MonoBehaviour
 
     private void Update()
     {
-        if (_agent.remainingDistance <= 0.3)
+        if (_agent.remainingDistance <= _agent.stoppingDistance)
         {
             CheckStartedCoroutine();
         }

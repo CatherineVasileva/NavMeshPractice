@@ -9,6 +9,5 @@ public class VisitorFindTarget : MonoBehaviour, IFindTarget
     {
         var numberOfTarget = Random.Range(0, targets.Length);
         Target = targets[numberOfTarget].position;
-        Debug.Log(numberOfTarget);
     }
 }

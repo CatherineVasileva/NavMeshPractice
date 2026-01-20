@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 interface IFindTarget
